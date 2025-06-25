@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url('fireworks.jpg'); /* Make sure the image is in the same folder */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: rgb(224, 202, 202);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.flag { 
+    position: absolute;
+    width: 150%;
+  top: -100px;
+  left: 600px;
+  transform: translateX(-50%);
+  z-index: 5;
+  text-align: center;
+
+}
+
+.eagle {
+     position: absolute;
+    width: 150%;
+  top: 100px;
+  left: 200px;
+  transform: translateX(-50%);
+  z-index: 5;
+  text-align: center;
+
+}
+
+.eagle2 {
+     position: absolute;
+    width: 150%;
+  top: 100px;
+  left: 1050px;
+  transform: translateX(-50%);
+  z-index: 5;
+  text-align: center;
+
+}
+.fire2 {
+     position: absolute;
+    width: 150%;
+  top: -100px;
+  left: 1000px;
+  transform: translateX(-50%);
+  z-index: 5;
+  text-align: center;
+
+
+}
+.flag2 {
+      position: absolute;
+    width: 150%;
+  top: -100px;
+  left: 600px;
+  transform: translateX(-50%);
+  z-index: 5;
+  text-align: center;
+
+    
+}
+.fire3 {
+     position: absolute;
+    width: 150%;
+  top: -100px;
+  left: 600px;
+  transform: translateX(-50%);
+  z-index: 5;
+  text-align: center;
+
+
+}
+.gif-container{
+    position: absolute;
+  top: 10px;
+  left: 100px;
+  transform: translateX(-50%);
+  z-index: 5;
+  text-align: center;
+}
+
+.container {
+  background: rgba(216, 32, 32, 0.6); /* Optional dark overlay for contrast */
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 0 100px rgb(19, 83, 234);
+}
+
+h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+.date {
+  font-size: 2em;
+  margin-bottom: 15px;
+  color: #7957ff;
+}
+
+.message {
+  font-size: 1.2em;
+}
